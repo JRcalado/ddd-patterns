@@ -1,12 +1,12 @@
 /*
- * For a detailed explanation regarding each configuration property and type check, visit:
+ * For a detailed explanation regarding each configuration property, visit:
  * https://jestjs.io/docs/configuration
  */
 
-export default {
+module.exports = {
+
   transform: {
     "^.+\.(t|j)sx?$": ["@swc/jest"],
-    
   },
   // All imported modules in your tests should be mocked automatically
   // automock: false,
@@ -15,7 +15,7 @@ export default {
   // bail: 0,
 
   // The directory where Jest should store its cached dependency information
-  // cacheDirectory: "/private/var/folders/h_/n9cr86t52279b8msmjm777z00000gn/T/jest_dx",
+  // cacheDirectory: "/tmp/jest_rs",
 
   // Automatically clear mock calls, instances and results before every test
   clearMocks: true,
